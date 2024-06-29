@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#c89116">
+    <link rel="icon" type="image/png" href="./assets/imgs/icons/MR (2).png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Sedgwick+Ave+Display&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Sedgwick+Ave+Display&display=swap');
+    </style>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/main.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="home">
+        <div class="main-content home-main">
+            <nav>
+                <p>
+                    < MATHEUS ROCHA <span>DEV</span> >
+                </p>
+                <ul>
+                    <li><a class="home-link" href="">Home</a></li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li><a class="home-link" href="">Home</a></li>
+                    <li><a href="#sobre-mim">Sobre mim ></a></li>
+                    <li><a href="#projetos">Projetos ></a></li>
+                    <li><a href="#contatos">Contatos ></a></li>
+                </ul>
+            </div>
+            <input id="checkbox" type="checkbox">
+            <label class="toggle" for="checkbox">
+                <div id="bar1" class="bars"></div>
+                <div id="bar2" class="bars"></div>
+                <div id="bar3" class="bars"></div>
+            </label>
+            <div class="mobile-img"><img class="math-animation-mobile" src="./assets/imgs/eu/math-animated.png" alt="">
+            </div>
+            <div>
+                <div class="home-intro">
+                    <div class="home-intro-text">
+                        <div>
+                            <h1>console.log(`hello world! eu sou o`)</h1>
+                            <h2>Matheus Rocha</h2>
+                            <h3>DESENVOLVEDOR FRONTEND/ WEB</h3>
+                        </div>
+                        <div class="home-a">
+                            <a class="fale-comigo-a" href="https://wa.me/5522997166888">Fale comigo</a>
+                            <a id="cv" href="./assets/CV - Matheus Rocha.pdf" download>Baixar CV</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="math-animation" src="./assets/imgs/eu/math-animated.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sobre-mim" id="sobre-mim">
+
+        <div class="sobre-mim-1">
+            <div class="sobre-mim-texto">
+                <h4>Sobre mim</h4>
+                <p>"Olá! Sou Matheus Rocha, desenvolvedor frontend apaixonado por unir design e tecnologia. Estudante de Sistemas, busco desafios que impulsionem meu crescimento e contribuo para projetos inovadores com foco na experiência do usuário."</p>
+            </div>
+        </div>
+        <div class="sobre-mim-2">
+            <div class="formacao">
+                <p class="titulo">Formação</p>
+                <ul>
+                    <li>
+                        <article>Sistemas de Informação</article> IFF Campos Centro | Cursando
+                    </li>
+                    <li>
+                        <article>Javascript e TypeScript (Full Stack)</article> 144h - Udemy | Cursando
+                    </li>
+                    <li>
+                        <article>Ensino médio</article> IFF Campos Centro | 2021
+                    </li>
+                </ul>
+            </div>
+            <div class="tecnologias">
+                <p class="titulo">Tecnologias</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <h1>Meus Projetos</h1>
+        <div class="projetos-container">
+            <div class="card">
+                <a href="#"><img src="./assets/imgs/mockups/mockup Cissa Nunes.png" alt=""></a>
+                <p>Central de Estudos Cissa Nunes</p>
+            </div>
+        </div>
+    </section>
+    <section class="contatos" id="contatos">
+        <h1>Fale comigo</h1>
+        <div class="social-media-links">
+            <a href="https://github.com/MatheusRocha02"><img src="./assets/imgs/icons/github (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/in/matheus-rocha-dev15/"><img src="./assets/imgs/icons/linkedin (1).png" alt=""></a>
+            <a href="https://wa.me/5522997166888"><img src="./assets/imgs/icons/whatsapp (4).png" alt=""></a>
+            <a href="https://www.instagram.com/maatcentrist?igsh=NDVrc2xtd2MwcGxj&utm_source=qr"><img src="./assets/imgs/icons/instagram (3).png" alt=""></a>
+            <a href="mailto:matheusdcrocha15@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20Email"><img src="./assets/imgs/icons/abrir.png" alt=""></a>
+        </div>
+        <fieldset>
+            <form action="https://formspree.io/f/xzzpbpqq" method="POST">
+                <div>
+                    <label for="nome">Nome: *</label>
+                    <input type="text" name="nome" class="nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" class="email">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem: * </label>
+                    <textarea name="mensagem"  class="mensagem" required></textarea>
+                </div>
+                <div class="buttons">
+                    <button class="submit-btn" type="submit">Enviar</button>
+                    <button class="reset-btn"  type="reset">Limpar</button>
+                </div>
+            </form>
+        </fieldset>
+    </section>
+    <footer><p>&copy 2024 Desenvolvido por Matheus Rocha Dev</p></footer>
+</body>
+
+</html>
