@@ -217,6 +217,13 @@ nav ul li a:hover,
     border: 1px solid rgba(255, 255, 255, 0.692);
     width: 100%;
 }
+.sobre-mim-texto p span{
+    color: var(--lighter-yellow);
+    font-size: 3rem;
+}
+.sobre-mim-texto{
+    text-align: left;
+}
 .sobre-mim-1 img{
     animation: none;
     margin-top: 30%;
@@ -258,7 +265,7 @@ ul li article{
 .formacao ul, .tecnologias ul{
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 2rem;
 }
 .titulo{
     font-size: 2em;
@@ -274,9 +281,15 @@ ul li article{
     justify-content: center;
     align-items: center;
 }
-.tecnologias ul li{
-    width: 10rem;
+.tecnologias ul{
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.tecnologias ul li{
+    font-family: 'kode mono';
+    width: 15rem;
+}
+
 
 
 
@@ -299,6 +312,7 @@ ul li article{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 3rem;
 }
 .card{
     display: flex;
@@ -312,9 +326,11 @@ ul li article{
     text-shadow: var(--shadow-1);
     font-family: 'kode mono';
     text-align: center;
+    width: 25rem;
 }
+
 .card img{
-    width: 55rem;
+    width: 30rem;
 }
 .card:hover{
     transform: scale(1.2);
@@ -541,25 +557,40 @@ h4{
     font-size: 2rem;
     font-weight: 200;
 }
+.sobre-mim-texto p span{
+    font-size: 2rem;
+    color: var(--yellow);
+    font-weight: bold;
+    opacity: 0.8;
+}
+
 .formacao ul, .tecnologias ul{
     display: flex;
     flex-direction: column;
+    gap: 0rem;
 }
 .tecnologias ul li{
-    margin-top: -4rem;
+    margin-top: 0rem;
     width: 30rem;
 }
 
 /**Mobile projetos**/
 .projetos{
-    padding: 2rem;
+    padding: 0rem 2rem;
 }
 .projetos h1{
     font-size: 3.5rem;
 }
 .card img{
-    width: 30rem;
+    width: 20rem;
 }
+.card{
+    width: 25rem;
+}
+.projetos-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
 /**Mobile contatos**/
@@ -570,4 +601,5 @@ h4{
     width: 95vw;
     gap: 3rem;
     border-radius: 1rem;
+}
 }
